@@ -1,0 +1,155 @@
+﻿
+.view-sec {
+    float: left;
+    width: 100%;
+    padding: 15px 0;
+}
+.view-sec td {
+    width: calc(100% / 3);
+    -moz-width: calc(100% / 3);
+    -webkit-width: calc(100% / 3);
+    -ms-width: calc(100% / 3);
+    -o-width: calc(100% / 3);
+}
+.top15 {
+    margin-top: 15px;
+}
+.view-sec td span {
+    width: 50%;
+    float: left;
+    font-size: 13px;
+}
+.view-sec .table-responsive {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+.view-sec .table {
+    margin-bottom: 0;
+        border-collapse: separate;
+}
+.view-sec td span:first-child {
+    color:#000;
+    font-weight: 600;
+}
+.view-sec td span:last-child {
+    text-align: left;
+    position: relative;
+    padding-left: 10px;
+    color: #505050;
+}
+.view-sec td span:last-child:before {
+    content:':';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.table > tbody > tr > td {
+    border: none;
+    padding: 2px 10px;
+}
+.view-sec h2 {
+    background: #0b5795;
+    width: fit-content;
+    padding: 10px 34px 13px 30px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-radius: 0 50px 0 0;
+}
+.top30 {
+    margin-top: 30px;
+}
+.table > tbody > tr > th {
+    border: none;
+    color: #fff;
+    background: #0b5795;
+    padding-left: 15px;
+}
+.parent {
+    float: left;
+    width: 70%;
+}
+.parent img {
+    width: 100%;
+    height: 164px;
+    object-fit: cover;
+        border: 1px solid #eaeaea;
+}
+.stu {
+    float: left;
+    width: 30%;
+}
+.stu img {
+    width: 100%;
+    height: 164px;
+    object-fit: cover;
+        border: 1px solid #eaeaea;
+}
+.o-logo {
+position: relative;
+    padding-left: 145px;
+    width: 100%;
+    height: 164px;
+    vertical-align: middle;
+    display: table-cell;
+    float: none;
+}
+.o-logo img {
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 130px;
+}
+.o-logo h1 {
+        color: #000;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.o-logo p {
+        font-size: 25px;
+    font-weight: 700;
+    color: #0b5795;
+    margin: 0;
+}
+.last-btn {
+    float: left;
+    width: 100%;
+    text-align:center;
+    margin-top: 10px;
+}
+.last-btn button {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border: 0px;
+    padding: 7px 25px;
+    border-radius: 26px;
+}
+.note-c span:first-child {
+    width: 50px;
+}
+.note-c span:last-child {
+    width: 500px;
+}
+.cap {
+        background: #191c1d;
+    padding: 4px 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.td-input input {
+    height: 34px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.note-c {
+    vertical-align: top !important;
+}

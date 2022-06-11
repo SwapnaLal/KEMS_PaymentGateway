@@ -1,0 +1,91 @@
+
+body {
+    line-height: 25px;
+    color: #333;
+    background-color: #fff;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    vertical-align: middle;
+	border-right: 1px solid #ccc;
+}
+.sp-td {
+    vertical-align: bottom !important;
+    padding-bottom: 14px;
+}
+.h3, h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.p-photo {
+
+    height: 230px;
+    background: #fff;
+    border: 1px solid #333;
+    text-align: center;
+    width: 70%;
+    margin: 0 15px;
+
+}
+
+  h1 span { display: block; }
+.passport {
+    height: 165px;
+    background: #ccc;
+    width: 65%;
+    float: right;
+    margin: 50px 15px 15px 0;
+}
+.sec {
+    padding: 25px 0;
+} 
+.td-spn {
+    width: 100%;
+    color: #7e7c7c;
+    font-size: 12px;
+} 
+.fmn {
+    float: right;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+.fst-tbl {
+
+    border: none;
+    width: 98%;
+    margin: 0 auto;
+
+}
+
+tbody {
+    border: 1px solid #ccc;
+}
+.trm
+{
+padding:15px 0;	
+}
+.trm ul
+{
+	list-style:none;
+	padding:0;
+}
+.trm ul li
+{
+	display:block;
+}
+
+.h1, h1 {
+    font-size: 25px;
+	color:#fff;
+}
+.td-left-name {
+    border-right: 1px solid #ccc;
+    height: 100%;
+    background: #0b5795;
+}
+input[type=text],input[type=date]{
+height:32px;}
+
+}
